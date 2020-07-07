@@ -62,7 +62,7 @@ class Map extends Component {
             <div>
               <h4>{this.state.selectedState.provinceState}</h4>
               <p>Confirmed: {this.state.selectedState.confirmed}</p>
-              <p>Cecoverd: {this.state.selectedState.recovered}</p>
+              <p>Recoverd: {this.state.selectedState.recovered}</p>
               <p>Deaths: {this.state.selectedState.deaths}</p>
             </div>
           </Popup>
