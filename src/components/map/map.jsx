@@ -41,7 +41,13 @@ class Map extends Component {
                 this.setState({ selectedState: d });
               }}
             >
-              <img src={pinImage} alt="covid-19" width="15" height="20"></img>
+              <img
+                src={pinImage}
+                alt="covid-19"
+                width="15"
+                height="20"
+                style={{ maxHeight: "15", maxWidth: "10" }}
+              ></img>
             </button>
           </Marker>
         ))}
